@@ -13,15 +13,15 @@
         width: 30px;
         height: 3px;
         background: $white-color;
-        &:hover {
-            &:before {
-                border: 1px solid $second-color;
-                background: $second-color;
-            }
-        }
     }
     span.long {
         width: 36px;
+    }
+    &:hover {
+        span {
+            background: $second-color;
+            transition: all .6s;
+        }
     }
 }
 
@@ -58,6 +58,7 @@
         &:hover {
             svg path {
                 fill: $second-color;
+                transition: all .6s;
             }
         }
     }
@@ -105,6 +106,7 @@
         &__link {
             &:hover {
                 svg path {
+                    transition: all .6s;
                     fill: $second-color;
                 }
             }

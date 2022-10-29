@@ -24,7 +24,8 @@
         color: $white-color;
         font-weight: bold;
         &:hover {
-            color: $white-color;
+            transition: all .6s;
+            color: #2cb67d;
             text-decoration: none;
         }
     }
