@@ -22,7 +22,7 @@ body {
     width: 100px;
     height: 3px;
     background-color: $main-color;
-    margin-top: 25px;
+    margin: 25px auto 0 auto;
 }
 
 @import 'blocks/promo';
@@ -31,3 +31,4 @@ body {
 @import 'blocks/sidepanel';
 @import 'blocks/menu';
 @import 'blocks/about';
+@import 'blocks/resume';
