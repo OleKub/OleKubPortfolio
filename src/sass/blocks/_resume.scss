@@ -52,9 +52,44 @@
         }
     }
     &__item {
-        &-head {
-            padding: 45px 0 0 100px;
+        position: relative;
+        &::before {
+            content: '';
+            height: 2px;
+            width: 45px;
+            position: absolute;
+            top: 68px;
+            background-color: $main-color;
         }
-        
+        &-head {
+            position: relative;
+            padding: 45px 0 0 100px;
+            h4 {
+                margin-bottom: 0;
+            }
+        }
+        &-body {
+            padding-left: 43px;
+            margin-top: 12px;
+            font-size: 13px;
+            line-height: 18px;
+        }
+        &-icon {
+            position: absolute;
+            top: 50px;
+            left: 45px;
+            @include before_circle;
+            img {
+                position: absolute;
+                left: 17px;
+                top: 14px;
+            }
+        }
+        &-location {
+            font-size: 13px;
+            line-height: 18px;
+            margin-top: 5px;
+            color: $white-color;
+        }
     }
 }
