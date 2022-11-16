@@ -42,7 +42,7 @@
                 &:after {
                     content: '';
                     width: 2px;
-                    height: 100%;
+                    height: calc(100% + 16px);
                     position: absolute;
                     top: -16px;
                     left: 0;
@@ -81,15 +81,14 @@
             @include before_circle;
             img {
                 position: absolute;
-                left: 17px;
-                top: 14px;
+                left: 14px;
+                top: 8px;
             }
         }
         &-location {
             font-size: 13px;
             line-height: 18px;
             margin-top: 5px;
-            color: $white-color;
         }
     }
 }
