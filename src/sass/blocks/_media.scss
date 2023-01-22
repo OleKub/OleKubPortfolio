@@ -10,7 +10,7 @@
     .about {
         &__wrapper {
             grid-template-columns: 400px 520px;
-            column-gap: 40px;
+            column-gap: 20px;
         }
         &__skills {
             column-gap: 20px;
@@ -79,6 +79,7 @@
     .about {
         &__wrapper {
             grid-template-columns: 300px 380px;
+            row-gap: 10px;
         }
         &__skills {
             grid-template-columns: 380px;
@@ -233,7 +234,7 @@
         }
     }
     .promo {
-        background: url('../img/main_bg.jpg') no-repeat 57%/cover;
+        background: url('../img/main_bg5.jpg') no-repeat 57%/cover;
         &__btns {
             margin-top: 30px;
         }
