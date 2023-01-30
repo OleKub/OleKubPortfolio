@@ -33,5 +33,8 @@
     "url": "https://github.com/OleKub/OleKubPortfolio/issues"
   },
   "homepage": "https://github.com/OleKub/OleKubPortfolio#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }
